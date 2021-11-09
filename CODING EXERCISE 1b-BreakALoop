@@ -1,0 +1,22 @@
+package selfProgramming;
+
+public class BreakALoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double[] lineItemAmount={4.99,17.49,3.33,5.98};
+		double accumulator=0;
+		for (int i=0; i<lineItemAmount.length; i++) {
+			accumulator+=lineItemAmount[i];
+			if (accumulator>25.0) {
+				System.out.println("$25.00 exceeded...breaking out of loop!");
+				break;
+		
+			}
+		}
+		
+		System.out.printf("Total order amount: %.2f%n ", accumulator);
+		
+		}
+	}
