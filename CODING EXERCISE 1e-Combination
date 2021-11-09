@@ -1,0 +1,25 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Combination {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc=new Scanner(System.in);
+		int age;
+		
+		System.out.print ("Enter an age: ");
+		age=sc.nextInt();
+		
+		if  ((age >= 25) && (age <= 50))
+		{
+			System.out.println ("You are qualified to apply");
+		}
+		else
+		{
+			System.out.println ("You are NOT qualified to apply");
+		}
+		
+	}
+
+}
