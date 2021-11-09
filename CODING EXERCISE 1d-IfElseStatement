@@ -1,0 +1,23 @@
+package selfProgramming;
+import java.util.Scanner;
+public class IfElseStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc=new Scanner(System.in);
+		int num;
+		String status="";
+		
+		System.out.print ("Enter a number: ");
+		num=sc.nextInt();
+		
+		if (num%2==0)
+			status="Even";
+		else
+			status="Odd";
+		
+		System.out.println ("The number is " + status);
+	}
+
+}
