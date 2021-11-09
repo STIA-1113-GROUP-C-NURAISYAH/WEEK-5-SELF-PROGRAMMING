@@ -1,0 +1,19 @@
+//output 1
+Enter final mark: 97
+The student grade is A
+
+//output 2
+Enter final mark: 85
+The student grade is B
+
+//output 3
+Enter final mark: 71
+The student grade is C
+
+//output 4
+Enter final mark: 63
+The student grade is D
+
+//output 5
+Enter final mark: 39
+The student grade is E
