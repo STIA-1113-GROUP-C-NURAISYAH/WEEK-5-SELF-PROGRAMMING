@@ -1,0 +1,14 @@
+//output 1
+Enter the number: 15
+The number you enter is: 15
+You enter the positive number
+
+//output 2
+Enter the number: -15
+The number you enter is: -15
+You enter the negative number
+
+//output 3
+Enter the number: 0
+The number you enter is: 0
+You enter the zero number
