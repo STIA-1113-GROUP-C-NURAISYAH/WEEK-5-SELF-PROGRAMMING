@@ -1,0 +1,31 @@
+package exercise;
+public class Return {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//Return true if x is between 0 and 100 (inclusive)
+//(x >= 0) && (x <= 100)
+//wrong to use <= x <= 100
+
+//Return true if x is outside 0 and 100 (inclusive)
+//(x < 0) || (x > 100)
+
+//Return true if year is a leap year
+// A year is a leap year if it is divisible by 4 but not by 100,
+// or it is divisible by 400
+
+//((year % 4 ==0) && (year % 100 !=0)) || (year % 400 == 0)
+
+//Given the year, month (1-12) and day (1-31), write a boolean
+//expression which returns true for dates before October 15, 1582 
+
+	int year=1582;
+	int month=10;
+	int date=15;
+
+
+	System.out.println (((year <= 1582) && (month <= 10) && (date <=15)));
+	}
+
+}
